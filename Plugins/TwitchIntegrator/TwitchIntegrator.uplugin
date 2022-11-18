@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.5.2",
+	"FriendlyName": "Twitch Integrator",
+	"Description": "All purpose plugin for twitch chat integration",
+	"Category": "Programming",
+	"CreatedBy": "Louis Contant",
+	"CreatedByURL": "louiscontant.com",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/aab34378365e41b18115c7bf8931dd31",
+	"SupportURL": "",
+	"EngineVersion": "5.0.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "TwitchIntegrator",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"PlatformDenyList": [
+				"Linux",
+				"Android",
+				"IOS"
+			]
+		}
+	]
+}
